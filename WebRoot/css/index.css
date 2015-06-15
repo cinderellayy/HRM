@@ -1,0 +1,555 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	font-family: "微软雅黑";
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	-webkit-font-smoothing: antialiased;
+	line-height: 1;
+	font-family: "微软雅黑";
+		background:url("./img/bg.jpg") repeat;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* -------------------------  */
+/* TYPEFACES ---------------  */
+/* -------------------------  */
+/*
+@font-face {
+    font-family: 'edmondsans-bold';
+    src: url('-/fonts/edmondsans-bold-webfont.eot');
+    src: url('-/fonts/edmondsans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('-/fonts/edmondsans-bold-webfont.woff') format('woff'),
+         url('-/fonts/edmondsans-bold-webfont.ttf') format('truetype'),
+         url('-/fonts/edmondsans-bold-webfont.svg#edmondsansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'edmondsans-medium';
+    src: url('-/fonts/edmondsans-medium-webfont.eot');
+    src: url('-/fonts/edmondsans-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('-/fonts/edmondsans-medium-webfont.woff') format('woff'),
+         url('-/fonts/edmondsans-medium-webfont.ttf') format('truetype'),
+         url('-/fonts/edmondsans-medium-webfont.svg#edmondsansmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'edmondsans-regular';
+    src: url('-/fonts/edmondsans-regular-webfont.eot');
+    src: url('-/fonts/edmondsans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('-/fonts/edmondsans-regular-webfont.woff') format('woff'),
+         url('-/fonts/edmondsans-regular-webfont.ttf') format('truetype'),
+         url('-/fonts/edmondsans-regular-webfont.svg#edmondsans_regularregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'cornholeregular';
+    src: url('-/fonts/cornhole-webfont.eot');
+    src: url('-/fonts/cornhole-webfont.eot?#iefix') format('embedded-opentype'),
+         url('-/fonts/cornhole-webfont.woff') format('woff'),
+         url('-/fonts/cornhole-webfont.ttf') format('truetype'),
+         url('-/fonts/cornhole-webfont.svg#cornholeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}*/
+
+/* -------------------------  */
+/* TYPOGRAPHY --------------  */
+/* -------------------------  */
+
+body {
+	font-family: "edmondsans-regular", sans-serif;
+	color: #F2EDE2;
+	font-size: 1em;
+	line-height: 1.4;
+	position: relative;
+}
+h1 {
+	font-family: "cornholeregular", sans-serif;
+	font-size: 4.5em;
+	text-transform: uppercase;
+	-webkit-text-shadow: -1px 1px 0px #0c1c2f, -2px 2px 0px #0c1c2f, -3px 3px 0px #0c1c2f, -4px 4px 0px #0c1c2f, -5px 5px 0px #0c1c2f;
+	-moz-text-shadow: -1px 1px 0px #0c1c2f, -2px 2px 0px #0c1c2f, -3px 3px 0px #0c1c2f, -4px 4px 0px #0c1c2f, -5px 5px 0px #0c1c2f;
+	text-shadow: -1px 1px 0px #0c1c2f, -2px 2px 0px #0c1c2f, -3px 3px 0px #0c1c2f, -4px 4px 0px #0c1c2f, -5px 5px 0px #0c1c2f;
+	letter-spacing: 0.08em;
+	text-align: center;
+}
+.hero-text h1 {
+	padding: 50px 0;
+	font-size: 6em;
+}
+.large-h1 h1 {
+	font-size: 6em;
+	-webkit-text-shadow: -1px 1px 0px #c4b170, -2px 2px 0px #c4b170, -3px 3px 0px #c4b170, -4px 4px 0px #c4b170, -5px 5px 0px #c4b170;
+	-moz-text-shadow: -1px 1px 0px #c4b170, -2px 2px 0px #c4b170, -3px 3px 0px #c4b170, -4px 4px 0px #c4b170, -5px 5px 0px #c4b170;
+	text-shadow: -1px 1px 0px #c4b170, -2px 2px 0px #c4b170, -3px 3px 0px #c4b170, -4px 4px 0px #c4b170, -5px 5px 0px #c4b170;
+}
+.yellow-shadow {
+	-webkit-text-shadow: -1px 1px 0px #c4b170, -2px 2px 0px #c4b170, -3px 3px 0px #c4b170;
+	-moz-text-shadow: -1px 1px 0px #c4b170, -2px 2px 0px #c4b170, -3px 3px 0px #c4b170;
+	text-shadow: -1px 1px 0px #c4b170, -2px 2px 0px #c4b170, -3px 3px 0px #c4b170;
+}
+h2 {
+	font-family: "cornholeregular", sans-serif;
+	font-size: 2.6em;
+	text-transform: uppercase;
+	-webkit-text-shadow: -1px 1px 0px #0c1c2f, -2px 2px 0px #0c1c2f, -3px 3px 0px #0c1c2f;
+	-moz-text-shadow: -1px 1px 0px #0c1c2f, -2px 2px 0px #0c1c2f, -3px 3px 0px #0c1c2f;
+	text-shadow: -1px 1px 0px #0c1c2f, -2px 2px 0px #0c1c2f, -3px 3px 0px #0c1c2f;
+	letter-spacing: 0.08em;
+}
+.large-h2 h2 {
+	font-size: 5em;
+}
+h3 {
+	font-family: "cornholeregular", sans-serif;
+	font-size: 1.8em;
+	color: #F2EDE2;
+	text-transform: uppercase;
+	line-height: 1.3;
+	text-shadow: -1px 1px 0px #0c1c2f, -2px 2px 0px #0c1c2f, -3px 3px 0px #0c1c2f;
+}
+h4 {
+	font-family: "cornholeregular", sans-serif;
+	font-size: 1.1em;
+	color: 	cadetblue;
+	text-transform: uppercase;
+}
+h4 a {
+	color: 	cadetblue;
+	text-decoration: none;
+}
+h4 a:hover {
+	color: #FFFFFF;
+}
+.h-gold {
+	color: 		cadetblue;
+}
+p {
+	color: #F2EDE2;
+	font-family: "微软雅黑";
+	font-size: 15px;
+	line-height: 1.6;
+	margin-bottom: 15px;
+	margin-left: 141px;
+}
+.center-text {
+	text-align: center;
+}
+a {
+	color: #F2EDE2;
+	cursor: pointer;
+}
+a:hover {
+	/*color: cadetblue;*/
+}
+.header-margin-leader {
+	margin: 20px 120px 80px;
+	text-align: center;
+}
+.header-margin {
+	margin: 0px 120px;
+	text-align: center;
+}
+footer {
+	font-family: "cornholeregular", sans-serif;
+}
+
+/* -------------------------  */
+/* RESPONSIVE GRID ---------  */
+/* -------------------------  */
+
+.full-margin,
+.col-one-of-two,
+.col-one-of-three {
+	margin: 0px 2% 30px;
+}
+.col-one-of-two {
+	width: 46%;
+	float: left;
+}
+.col-one-of-three {
+	width: 29.33%;
+	float: left;
+	margin-top: 30px;
+}
+.inner-half-one {
+	float: left;
+	width: 44%;
+	margin-right: 5%;
+	text-align: left;
+}
+.textbox .inner-half-one h3, .textbox .inner-half-one h4 {
+	text-align: left;
+}
+.inner-half-two {
+	float: left;
+	width: 44%;
+	padding-left: 7%;
+	background: url('-/img/double-border-vertical.gif') top left repeat-y;
+	text-align: left;
+}
+.image-respond img {
+	max-width: 100%;
+}
+.image-center {
+	display: block;
+	margin: 0 auto;
+}
+.single-centered-col {
+	clear: both;
+	float: none;
+	margin: 0 auto;
+}
+.max-width-700 {
+	max-width: 700px;
+	margin: 0 auto;
+}
+
+/* -------------------------  */
+/* COMPONENTS --------------  */
+/* -------------------------  */
+
+/* General */
+html, body {
+	background: #F2EDE2;
+}
+.m-show {
+	display: none;
+}
+.overflow-wrap {
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+}
+.stage {
+	background: url('-/img/navy-texture.png') top center;
+	margin: 20px;
+}
+header .inner {
+	/*padding: 80px 0px 50px 0px;*/
+}
+
+/* Header and navigation */
+nav {
+	position: relative;
+	background: #336699;
+	border: 1px solid cadetblue;
+	margin: 0 auto;
+	padding-bottom: 10px;
+}
+.nav-inner {
+	position: relative;
+	top: 5px;
+	left: -7px;
+	/*background: #336699;*/
+	background: #33678D;
+	border: 1px solid cadetblue;
+	width: 100%;
+	padding: 0px 6px;
+	overflow: hidden;
+}
+.nav-inner ul li {
+	display: inline-block;
+	height: 40px;
+	margin: 0px 14px;
+}
+.nav-inner a {
+	display: inline-block;
+	height: 18px;
+	padding: 11px 0px;
+	font-size: 14px;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+}
+.nav-inner li.current-menu-item a {
+	/*color: cadetblue;*/
+}
+.nav-left {
+	display: block;
+	float: left;
+	margin-left: 30px;
+	overflow: hidden;
+}
+.nav-right {
+	display: block;
+	float: right;
+	margin-right: 30px;
+	overflow: hidden;
+}
+.logo {
+	display: block;
+	position: absolute;
+	left: 50%;
+	top: 57px;
+	margin: 0px 0px 0px -80px;
+	width: 160px;
+	height: 95px;
+	background: url('-/img/biergarten-logo.png') top center no-repeat;
+	text-indent: -999px;
+	overflow: hidden;
+	z-index: 2;
+}
+.button-link {
+	font-family: "cornholeregular", sans-serif;
+	display: block;
+	position: relative;
+	border: 1px solid cadetblue;
+	margin: 30px auto 0;
+	padding-bottom: 10px;
+	width: 300px;
+}
+.button-no-margin {
+	margin: 0 auto;
+}
+.button-link a {
+	display: block;
+	position: relative;
+	top: 5px;
+	left: -7px;
+	border: 1px solid cadetblue;
+	width: 300px;
+	padding: 6px 6px;
+	font-size: 19px;
+	color: #F2EDE2;
+	text-transform: uppercase;
+	letter-spacing: .15em;
+	text-decoration: none;
+	text-align: center;
+}
+.button-link a:hover {
+	background:  cadetblue;
+
+}
+.full-width-image {
+	max-width: 100%;
+	display: block;
+	margin: 0 auto;
+}
+.full-width-image-wrap {
+	width: 100%;
+	max-width: 1600px;
+	position: relative;
+	margin: 0 auto;
+}
+.center-over-image {
+	margin: auto;
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+	max-width: 1020px;
+	padding: 0px;
+}
+.center-over-image h1 {
+  margin-top: 5%;
+}
+
+/* Footer */
+footer {
+	overflow: hidden;
+}
+footer .inner-wrap {
+	margin: 30px 20px 60px;
+}
+footer p {
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+.seal {
+	margin-top: 30px;
+}
+footer h4 {
+	margin-bottom: 4px;
+}
+.copyright {	font-size: 11px;
+	text-transform: uppercase;
+	color: 	 #336699;
+	margin-left: 22%;
+	
+}
+.footer-links {
+	width: 96%;
+	margin: 0% 2%;
+	text-align: center;
+	clear: both;
+}
+.footer-links p {
+	line-height: 2em;
+	margin-bottom: 0px;
+}
+.footer-links a {
+	text-decoration: none;
+	margin: 0px 10px;
+}
+
+/* General sections */
+.inner-wrap {
+	margin: 80px 20px;
+	overflow: hidden;
+}
+.inner-wrap-no-margin-y,
+header .inner-wrap {
+	margin: 0px 20px;
+	overflow: hidden;
+}
+.inner {
+	width: 100%;
+	max-width: 1020px;
+	margin: 0 auto;
+	position: relative;
+	z-index: 1;
+}
+.centered-header-large {
+	max-width: 600px;
+	margin: 100px auto 170px;
+}
+.double-rule-bottom {
+	padding-bottom: 26px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid cadetblue;
+		
+	margin-top: 10px;
+	position: relative;
+}
+.double-rule-bottom:after {
+	content: '';
+	position: absolute;
+	display: block;
+	height: 1px;
+	width: 100%;
+	bottom: 5px;
+	border-bottom: 1px solid cadetblue;
+		
+}
+.vendor-respond img {
+	max-width: 100%;
+}
+.two-col-text {
+	margin: 20px 30px 0px;	
+	-moz-column-count: 2;
+	-moz-column-gap: 20px;
+	-webkit-column-count: 2;
+	-webkit-column-gap: 20px;
+	column-count: 2;
+	column-gap: 20px;
+}
+.two-col-text p {
+	margin-bottom: 21px;
+}
+
+/* Section dividers */
+.section-divider-a {
+	background: url('-/img/biergarten-guys.jpg') no-repeat;
+	width: 74%;
+}
+.section-divider-b {
+	background: url('-/img/biergarten-building.jpg') no-repeat;
+}
+.section-divider-a,
+.section-divider-b {
+	/*width: 100%*/;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: 0px -200px;
+}
+.section-divider-a .section-divider-inner,
+.section-divider-b .section-divider-inner {
+	/*width: 100%*/;
+/*max-width: 1020px*/;
+	margin: 0 auto;
+}
+.section-divider-inner {
+	padding: 70px 0px;
+	text-align: center;
+}
+.large-h2 {
+	padding: 50px 0px;
+}
+
+/* Double stroke textboxes */
+.textbox {
+	position: relative;
+	border: 1px solid #336699;
+	margin: 0 auto;
+	padding-bottom: 10px;
+	
+}
+.textbox h3, .textbox h4 {
+	text-align: center;
+}
+.textbox-frame {
+	position: relative;
+	top: 5px;
+	left: -7px;
+	border: 1px solid #336699;
+	width: 100%;
+	padding: 0px 6px;
+}
+.textbox-inner {
+	padding: 26px 20px 10px;
+	overflow: hidden;
+}
+.extra-inner-padding {
+	padding: 50px 50px;
+}
+.extra-inner-padding .button-link {
+	width: 200px;
+}
+.extra-inner-padding .button-link a {
+	width: 200px;
+}
+.headers-outside-textbox h3 {
+	margin-bottom: 10px;
+	text-align: center;
+}
+.headers-outside-textbox h4 {
+	margin: 10px 0px 30px 0px;
+	text-align: center;
+}
+.no-h4 h3 {
+	margin-bottom: 20px;
+}

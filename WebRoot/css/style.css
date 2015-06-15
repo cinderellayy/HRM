@@ -1,0 +1,15 @@
+body,table {
+	font-size: 12px;
+}
+
+.table_border tr td {
+	border: 1px solid #ccc;
+}
+
+.table_border tr th {
+	border: 1px solid #ccc;
+}
+
+.table_border {
+	border-collapse: collapse;
+}
